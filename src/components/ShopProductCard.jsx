@@ -1,10 +1,13 @@
 import React from 'react'
 
-function ProductCard({photo, title, description, price, discountedPrice, color}) {
+function ShopProductCard({photo, mobilePhoto, title, description, price, discountedPrice, color}) {
   return (
-    <section className="flex flex-col md:w-[11.438rem] md:h-[25rem]">
-      <div>
+    <section className="flex flex-col items-center w-[21.75rem] h-[38.438rem] md:w-[15rem] md:h-[30.5rem]">
+      <div className="hidden md:block">
         <img src={photo}/>
+      </div>
+      <div className="block md:hidden">
+        <img src={mobilePhoto}/>
       </div>
       <div className="flex flex-col items-center gap-2.5 py-[1.563rem]">
         <h5 className="text-base font-bold leading-6 text-[#252B42]">
@@ -26,7 +29,7 @@ function ProductCard({photo, title, description, price, discountedPrice, color})
         </div>
       </div>
     </section>
-  );
+  )
 }
 
-export default ProductCard
+export default ShopProductCard

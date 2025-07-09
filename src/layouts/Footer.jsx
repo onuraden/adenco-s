@@ -22,21 +22,21 @@ function Footer() {
           <Link className="text-[#737373] text-sm font-bold leading-6">Blog</Link>
         </div>
         <div className='flex flex-col gap-5'>
-          <h5>Legal</h5>
+          <h5 className='text-base font-bold leading-6 text-[#252B42] pb-2.5'>Legal</h5>
           <Link className="text-[#737373] text-sm font-bold leading-6">About Us</Link>
           <Link className="text-[#737373] text-sm font-bold leading-6">Carrier</Link>
           <Link className="text-[#737373] text-sm font-bold leading-6">We are hiring</Link>
           <Link className="text-[#737373] text-sm font-bold leading-6">Blog</Link>
         </div>
         <div className='flex flex-col gap-5'>
-          <h5>Features</h5>
+          <h5 className='text-base font-bold leading-6 text-[#252B42] pb-2.5'>Features</h5>
           <Link className="text-[#737373] text-sm font-bold leading-6">Business Marketing</Link>
           <Link className="text-[#737373] text-sm font-bold leading-6">User Analytics</Link>
           <Link className="text-[#737373] text-sm font-bold leading-6">Live Chat</Link>
           <Link className="text-[#737373] text-sm font-bold leading-6">Unlimited Support</Link>
         </div>
         <div className='flex flex-col gap-5'>
-          <h5>Resources</h5>
+          <h5 className='text-base font-bold leading-6 text-[#252B42] pb-2.5'>Resources</h5>
           <Link className="text-[#737373] text-sm font-bold leading-6">IOS & Android</Link>
           <Link className="text-[#737373] text-sm font-bold leading-6">Watch a Demo</Link>
           <Link className="text-[#737373] text-sm font-bold leading-6">Customers</Link>

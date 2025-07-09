@@ -21,7 +21,7 @@ function FeaturedService() {
                 <p className="text-sm font-normal leading-5 text-[#737373] w-[14.063rem]">Get your best looking smile now!</p>
             </div>
             <div className="icon text-[#23A6F0] flex flex-col items-center gap-5 md:w-[20.5rem] md:h-[15.875rem]">
-                <img src={carbonBook} className="text-5xl"/>
+                <img src={carbonBook} className="w-[3.2rem] h-[3.2rem]"/>
                 <h3 className="text-[#252B42] text-2xl font-bold leading-8">Concrete</h3>
                 <p className="text-sm font-normal leading-5 text-[#737373] w-[14.063rem]">Defalcate is most focused in helping you discover your most beautiful smile</p>
             </div>

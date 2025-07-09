@@ -1,13 +1,12 @@
 import React from 'react'
 import { productCard } from "../data.js";
-import ProductCard from "./ProductCard"
-
+import ProductCard from "./ProductCard";
 
 function ProductCards() {
     const firstFive = productCard.slice(0,5);
     const secondFive = productCard.slice(5,10);
   return (
-    <section className="product-cards flex flex-col items-center mt-20">
+    <section className="flex flex-col items-center mt-20">
       <div className="flex flex-col items-center gap-2.5">
         <h4 className="hidden md:block text-xl font-normal leading-[1.875rem] text-[#737373]">
           Featured Products
