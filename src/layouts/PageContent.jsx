@@ -14,7 +14,7 @@ function PageContent() {
         <Route path="/shop">
           <Shop />
         </Route>
-        <Route path="/product">
+        <Route path="/product/:id">
           <ProductDetail />
         </Route>
       </Switch>

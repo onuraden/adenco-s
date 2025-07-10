@@ -7,7 +7,7 @@ function ShopHeader() {
   return (
     <section>
         <div className='flex flex-col items-center gap-8 mb-[1.5rem] py-5 text-[#252B42] md:flex-row md:justify-between md:px-60'>
-            
+            <span className="text-2xl font-bold">Shop</span>
             <div className='flex items-center gap-[0.25rem] text-sm'>
                 <Link to="/" className="font-bold hover:underline">Home</Link>
                 <ChevronRight/>

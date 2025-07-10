@@ -3,6 +3,8 @@ import { productCard } from '../data';
 import ShopProductCard from './ShopProductCard';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faGripVertical, faList } from '@fortawesome/free-solid-svg-icons';
+import { Link } from 'react-router-dom';
+
 
 function ShopProductCards() {
     const firstFour = productCard.slice(10,14);
@@ -33,16 +35,20 @@ function ShopProductCards() {
       <div className="flex flex-col items-center mt-8 md:gap-12 md:py-12">
         <div className="flex flex-col gap-[1.875rem] items-center md:flex-row md:justify-center ">
           {firstFour.map((product) => (
-            <ShopProductCard
+            <Link
               key={product.id}
-              photo={product.photo}
-              mobilePhoto={product.mobilePhoto}
-              title={product.title}
-              description={product.description}
-              price={product.price}
-              discountedPrice={product.discountedPrice}
-              color={product.color}
-            />
+              to={`/product/${product.id}`}
+            >
+              <ShopProductCard
+                photo={product.photo}
+                mobilePhoto={product.mobilePhoto}
+                title={product.title}
+                description={product.description}
+                price={product.price}
+                discountedPrice={product.discountedPrice}
+                color={product.color}
+              />
+            </Link>
           ))}
         </div>
 

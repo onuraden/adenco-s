@@ -6,14 +6,14 @@ import ShopProductCards from '../components/ShopProductCards'
 
 function Shop() {
   return (
-    <div>
+    <>
         <div className='bg-[#FAFAFA]'>
           <ShopHeader/>
           <ShopCards/>
         </div>
         <ShopProductCards/>
         <Clients/>
-    </div>
+    </>
   )
 }
 

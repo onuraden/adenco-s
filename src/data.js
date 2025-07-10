@@ -20,11 +20,24 @@ import productCover19 from "./assets/product-cover-19.png";
 import productCover20 from "./assets/product-cover-20.png";
 import productCover21 from "./assets/product-cover-21.png";
 import productCover22 from "./assets/product-cover-22.png";
+import productCover23 from "./assets/product-cover-23.png";
+import productCover24 from "./assets/product-cover-24.png";
+import productCover25 from "./assets/product-cover-25.png";
+import productCover26 from "./assets/product-cover-26.png";
+import productCover27 from "./assets/product-cover-27.png";
+import productCover28 from "./assets/product-cover-28.png";
+import productCover29 from "./assets/product-cover-29.png";
+import productCover30 from "./assets/product-cover-30.png";
 
 import productCoverMobile11 from "./assets/product-cover-mobile-1.png";
 import productCoverMobile12 from "./assets/product-cover-mobile-2.png";
 import productCoverMobile13 from "./assets/product-cover-mobile-3.png";
 import productCoverMobile14 from "./assets/product-cover-mobile-4.png";
+import productCoverMobile23 from "./assets/product-cover-mobile-5.png";
+import productCoverMobile24 from "./assets/product-cover-mobile-6.png";
+import productCoverMobile25 from "./assets/product-cover-mobile-7.png";
+import productCoverMobile26 from "./assets/product-cover-mobile-8.png";
+
 
 import featuredPost1 from "./assets/featured-post-1.png";
 import featuredPost2 from "./assets/featured-post-2.png";
@@ -49,111 +62,111 @@ export const productCard = [
     {
         id: 1,
         photo: productCover1,
-        mobilePhoto: "",
+        mobilePhoto: null,
         title: "Graphic Design",
         description: "English Department",
         price: "$16.48",
         discountedPrice: "$6.48",
-        color: ""
+        color: null
     },
 
     {
         id: 2,
         photo: productCover2,
-        mobilePhoto: "",
+        mobilePhoto: null,
         title: "Graphic Design",
         description: "English Department",
         price: "$16.48",
         discountedPrice: "$6.48",
-        color: "" 
+        color: null 
     },
 
     {
         id: 3,
         photo: productCover3,
-        mobilePhoto: "",
+        mobilePhoto: null,
         title: "Graphic Design",
         description: "English Department",
         price: "$16.48",
         discountedPrice: "$6.48",
-        color: "" 
+        color: null 
     },
 
     {
         id: 4,
         photo: productCover4,
-        mobilePhoto: "",
+        mobilePhoto: null,
         title: "Graphic Design",
         description: "English Department",
         price: "$16.48",
         discountedPrice: "$6.48",
-        color: "" 
+        color: null 
     },
 
     {
         id: 5,
         photo: productCover5,
-        mobilePhoto: "",
+        mobilePhoto: null,
         title: "Graphic Design",
         description: "English Department",
         price: "$16.48",
         discountedPrice: "$6.48",
-        color: "" 
+        color: null
     },
 
     {
         id: 6,
         photo: productCover6,
-        mobilePhoto: "",
+        mobilePhoto: null,
         title: "Graphic Design",
         description: "English Department",
         price: "$16.48",
         discountedPrice: "$6.48",
-        color: ""   
+        color: null   
     },
 
     {
         id: 7,
         photo: productCover7,
-        mobilePhoto: "",
+        mobilePhoto: null,
         title: "Graphic Design",
         description: "English Department",
         price: "$16.48",
         discountedPrice: "$6.48",
-        color: "" 
+        color: null 
     },
 
     {
         id: 8,
         photo: productCover8,
-        mobilePhoto: "",
+        mobilePhoto: null,
         title: "Graphic Design",
         description: "English Department",
         price: "$16.48",
         discountedPrice: "$6.48",
-        color: "" 
+        color: null 
     },
 
     {
         id: 9,
         photo: productCover9,
-        mobilePhoto: "",
+        mobilePhoto: null,
         title: "Graphic Design",
         description: "English Department",
         price: "$16.48",
         discountedPrice: "$6.48",
-        color: "" 
+        color: null 
     },
 
     {
         id: 10,
         photo: productCover10,
-        mobilePhoto: "",
+        mobilePhoto: null,
         title: "Graphic Design",
         description: "English Department",
         price: "$16.48",
         discountedPrice: "$6.48",
-        color: "" 
+        color: null
     },
 
     {
@@ -203,7 +216,7 @@ export const productCard = [
     {
         id: 15,
         photo: productCover15,
-        mobilePhoto: "",
+        mobilePhoto: null,
         title: "Graphic Design",
         description: "English Department",
         price: "$16.48",
@@ -214,7 +227,7 @@ export const productCard = [
     {
         id: 16,
         photo: productCover16,
-        mobilePhoto: "",
+        mobilePhoto: null,
         title: "Graphic Design",
         description: "English Department",
         price: "$16.48",
@@ -225,7 +238,7 @@ export const productCard = [
     {
         id: 17,
         photo: productCover17,
-        mobilePhoto: "",
+        mobilePhoto: null,
         title: "Graphic Design",
         description: "English Department",
         price: "$16.48",
@@ -236,7 +249,7 @@ export const productCard = [
     {
         id: 18,
         photo: productCover18,
-        mobilePhoto: "",
+        mobilePhoto: null,
         title: "Graphic Design",
         description: "English Department",
         price: "$16.48",
@@ -247,7 +260,7 @@ export const productCard = [
     {
         id: 19,
         photo: productCover19,
-        mobilePhoto: "",
+        mobilePhoto: null,
         title: "Graphic Design",
         description: "English Department",
         price: "$16.48",
@@ -258,7 +271,7 @@ export const productCard = [
     {
         id: 20,
         photo: productCover20,
-        mobilePhoto: "",
+        mobilePhoto: null,
         title: "Graphic Design",
         description: "English Department",
         price: "$16.48",
@@ -269,7 +282,7 @@ export const productCard = [
     {
         id: 21,
         photo: productCover21,
-        mobilePhoto: "",
+        mobilePhoto: null,
         title: "Graphic Design",
         description: "English Department",
         price: "$16.48",
@@ -280,15 +293,101 @@ export const productCard = [
     {
         id: 22,
         photo: productCover22,
-        mobilePhoto: "",
+        mobilePhoto: null,
+        title: "Graphic Design",
+        description: "English Department",
+        price: "$16.48",
+        discountedPrice: "$6.48",
+        color: productColor 
+    },
+
+    {
+        id: 23,
+        photo: productCover23,
+        mobilePhoto: productCoverMobile23,
+        title: "Graphic Design",
+        description: "English Department",
+        price: "$16.48",
+        discountedPrice: "$6.48",
+        color: productColor 
+    },
+
+    {
+        id: 24,
+        photo: productCover24,
+        mobilePhoto: productCoverMobile24,
+        title: "Graphic Design",
+        description: "English Department",
+        price: "$16.48",
+        discountedPrice: "$6.48",
+        color: productColor 
+    },
+
+    {
+        id: 25,
+        photo: productCover25,
+        mobilePhoto: productCoverMobile25,
+        title: "Graphic Design",
+        description: "English Department",
+        price: "$16.48",
+        discountedPrice: "$6.48",
+        color: productColor 
+    },
+
+    {
+        id: 26,
+        photo: productCover26,
+        mobilePhoto: productCoverMobile26,
+        title: "Graphic Design",
+        description: "English Department",
+        price: "$16.48",
+        discountedPrice: "$6.48",
+        color: productColor 
+    },
+
+    {
+        id: 27,
+        photo: productCover27,
+        mobilePhoto: null,
+        title: "Graphic Design",
+        description: "English Department",
+        price: "$16.48",
+        discountedPrice: "$6.48",
+        color: productColor 
+    },
+
+    {
+        id: 28,
+        photo: productCover28,
+        mobilePhoto: null,
+        title: "Graphic Design",
+        description: "English Department",
+        price: "$16.48",
+        discountedPrice: "$6.48",
+        color: productColor 
+    },
+
+    {
+        id: 29,
+        photo: productCover29,
+        mobilePhoto: null,
+        title: "Graphic Design",
+        description: "English Department",
+        price: "$16.48",
+        discountedPrice: "$6.48",
+        color: productColor 
+    },
+
+    {
+        id: 30,
+        photo: productCover30,
+        mobilePhoto: null,
         title: "Graphic Design",
         description: "English Department",
         price: "$16.48",
         discountedPrice: "$6.48",
         color: productColor 
     }
-
-
 ]
 
 export const featuredPost = [

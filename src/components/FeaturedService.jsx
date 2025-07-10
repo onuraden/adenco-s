@@ -1,10 +1,7 @@
 import React from 'react'
-
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import {faBookOpenReader, faArrowTrendUp} from '@fortawesome/free-solid-svg-icons';
 import carbonBook from "../assets/carbon-book.png";
-
-
 
 function FeaturedService() {
   return (

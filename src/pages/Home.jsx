@@ -9,7 +9,7 @@ import FeaturedPosts from '../components/FeaturedPosts'
 
 function Home() {
   return (
-    <div>
+    <>
       <Hero/>
       <Clients/>
       <ShopCard/>
@@ -17,7 +17,7 @@ function Home() {
       <FeaturedProducts/>
       <FeaturedService/>
       <FeaturedPosts/>
-    </div>
+    </>
   )
 }
 

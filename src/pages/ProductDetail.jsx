@@ -1,9 +1,16 @@
 import React from 'react'
-import ShopHeader from '../components/ShopHeader'
+import ProductSum from '../components/ProductSum'
+import ProductDescription from '../components/ProductDescription'
+import BestSellerProducts from '../components/BestSellerProducts'
+
 
 function ProductDetail() {
   return (
-    <ShopHeader/>
+    <>
+      <ProductSum/>
+      <ProductDescription/>
+      <BestSellerProducts/>
+    </>
   )
 }
 
